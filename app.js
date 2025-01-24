@@ -8,7 +8,7 @@ const userRouter = require('./routes/user.route')
 const orderRouter = require('./routes/order.route')
 
 const corsOptions = {
-  origin: 'https://frontend-five-kappa-38.vercel.app/',
+  origin: 'https://mahakumbhamritjal.vercel.app/',
   credentials: true,
 }
 app.use(cors(corsOptions))
